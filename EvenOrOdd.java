@@ -7,16 +7,15 @@ import java.io.InputStreamReader;
  *
  * @author Emmanuel Nkuandu <nkuandu.emmanuel@hotmail.com>
  */
-
 public class EvenOrOdd {
-	public static void main( String args[] ) throws IOException	{
+	public static void main(String args[]) throws IOException{
 		System.out.print( " Type in a number! " );			
 		
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in)); 
-        String UserInput = reader.readLine();			
+                String UserInput = reader.readLine();			
 		 
 		int number = Integer.parseInt(UserInput);	
-		if ( number % 2 == 0){
+		if (number % 2 == 0) {
 			System.out.print("Even");
 		} else {
 			System.out.print("Odd"); 
