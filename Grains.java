@@ -16,9 +16,9 @@ public class Grains {
 		for (  int i = 1; i <= 64; i++ ) {					
 			String output = " square " +  i + ":" + "\t" + NumberOfGrains + "\t" + "grains" + "\n" ;			
 			System.out.print( output ); 
-			TotalNumberOfGrains = TotalNumberOfGrains.add(NumberOfGrains);	
-			NumberOfGrains = NumberOfGrains.multiply( BigInteger.valueOf( 2 ) );
+			totalNumberOfGrains = totalNumberOfGrains.add(numberOfGrains);	
+			numberOfGrains = numberOfGrains.multiply( BigInteger.valueOf( 2 ) );
 		}		
-		System.out.print( "The total number of grains on the entire chess board is" + "\t" + TotalNumberOfGrains );				
+		System.out.print( "The total number of grains on the entire chess board is" + "\t" + totalNumberOfGrains );				
 	}
 }
