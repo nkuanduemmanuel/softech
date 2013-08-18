@@ -8,9 +8,8 @@ import java.io.InputStreamReader;
  * @author Emmanuel Nkuandu <nkuandu.emmanuel@hotmail.com>
  */
 
-public class LeapYear
-{
-  public static void main ( String arg[])throws IOException {
+public class LeapYear{
+          public static void main ( String arg[])throws IOException {
 	  System.out.print( " Type in a year! " );		
 	  BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));		
 	  
@@ -27,6 +26,6 @@ public class LeapYear
 		} else {
 			System.out.print(" Not a Leap Year !") ;
 		}  
-  }  
+   }  
  
 }
