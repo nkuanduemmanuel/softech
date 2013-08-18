@@ -13,15 +13,15 @@ public class LeapYear{
 	  System.out.print( " Type in a year! " );		
 	  BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));		
 	  
-	  String UserInput = reader.readLine();		 
+	  String userInput = reader.readLine();		 
 		
-	  int number = Integer.parseInt(UserInput);
+	  int number = Integer.parseInt(userInput);
 		
-		boolean isDivisibleByFour = ((number % 4) == 0);
-		boolean isDivisibleByHundred = ((number % 100) == 0);
-		boolean isDivisibleByFourHundred = ((number % 400) == 0);
+	  boolean isDivisibleByFour = ((number % 4) == 0);
+	  boolean isDivisibleByHundred = ((number % 100) == 0);
+	  boolean isDivisibleByFourHundred = ((number % 400) == 0);
 		 
-		if ( isDivisibleByFour && !isDivisibleByHundred && !isDivisibleByFourHundred ) {
+	  if ( isDivisibleByFour && !isDivisibleByHundred && !isDivisibleByFourHundred ) {
 			System.out.print(( " Leap Year ! " )); 
 		} else {
 			System.out.print(" Not a Leap Year !") ;
