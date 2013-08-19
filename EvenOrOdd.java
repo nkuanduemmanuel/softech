@@ -9,7 +9,7 @@ import java.io.InputStreamReader;
  */
 public class EvenOrOdd {
 	public static void main(String args[]) throws IOException{
-		System.out.print( " Type in a number! " );			
+		System.out.print("Type in a number!");			
 		
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in)); 
                 String UserInput = reader.readLine();			
