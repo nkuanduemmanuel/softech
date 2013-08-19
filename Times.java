@@ -4,7 +4,8 @@
  * @author Emmanuel Nkuandu <nkuandu.emmanuel@hotmail.com>
  */
   public class Times {
-         public static void main ( String arg[]){
+    
+    public static void main ( String arg[]){
 	        System.out.print( "\t" );
 	   
 	        for( int i = 0; i <= 9; i++) {		   
@@ -20,7 +21,7 @@
 			  System.out.print(j*k + "\t");			  
 		   }
 		   
-		   System.out.print( "\n");
+		   System.out.print("\n");
 	   }
    }
 }
