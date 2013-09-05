@@ -14,6 +14,6 @@ public class Hundred {
 	String userInput = reader.readLine();		 
         for (int i= 1; i <= 100; i++) {
        	     System.out.print(userInput + "\t");
-       }
+        }
     }
- }
+}
