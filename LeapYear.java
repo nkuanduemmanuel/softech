@@ -9,22 +9,19 @@ import java.io.InputStreamReader;
  */
 
 public class LeapYear{
-          public static void main (String args[]) throws IOException {
-	    System.out.print("Type in a year!");		
-	    BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-	    
-	    String userInput = reader.readLine();
-	    
-	    int number = Integer.parseInt(userInput);
-	    boolean isDivisibleByFour = ((number % 4) == 0);
-	    boolean isDivisibleByHundred = ((number % 100) == 0);
-	    boolean isDivisibleByFourHundred = ((number % 400) == 0);
-		 
-	    if(isDivisibleByFour && !isDivisibleByHundred && !isDivisibleByFourHundred){
-			System.out.print(("Leap Year!")); 
-		} else {
-			System.out.print("Not a Leap Year!");
-		}  
-         }  
- 
+	
+    public static void main(String args[]) throws IOException {
+        System.out.print("Type in a year!");		
+	BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+	String userInput = reader.readLine();
+	int number = Integer.parseInt(userInput);
+	boolean isDivisibleByFour = ((number % 4) == 0);
+	boolean isDivisibleByHundred = ((number % 100) == 0);
+	boolean isDivisibleByFourHundred = ((number % 400) == 0);
+	if (isDivisibleByFour && !isDivisibleByHundred && !isDivisibleByFourHundred){
+	    System.out.print(("Leap Year!")); 
+	} else { 
+	    System.out.print("Not a Leap Year!");
+	}  
     }
+}
