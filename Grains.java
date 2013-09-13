@@ -18,6 +18,7 @@ public class Grains {
 	     totalNumberOfGrains = totalNumberOfGrains.add(numberOfGrains);	
 	     numberOfGrains = numberOfGrains.multiply(BigInteger.valueOf(2));
 	}
-	System.out.print("The total number of grains on the entire chess board is" + "\t" + totalNumberOfGrains);				
+	
+	System.out.print("The total number of grains on the entire chess board is" + "\t" + totalNumberOfGrains);
     }
 }
